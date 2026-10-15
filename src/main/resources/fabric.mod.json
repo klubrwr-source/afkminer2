@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "afkminer",
+  "version": "${version}",
+  "name": "AFK Miner",
+  "description": "Automatyczne kopanie w tle z menu ustawien (klawisz X).",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.afkminer.AfkMinerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
